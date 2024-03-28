@@ -1,1 +1,9 @@
-// this is the landing page which consists a bit of animations.
+import LandingScreen from '../components/LandingPageComponents/LandingScreen';
+
+const LandingPage = () => (
+  <div className="landing-page-outer">
+    <LandingScreen />
+  </div>
+);
+
+export default LandingPage;
